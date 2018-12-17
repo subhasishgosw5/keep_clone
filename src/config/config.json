@@ -1,4 +1,17 @@
-{
+
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCDW9-JqSWctdDXxre5s3FBMXvbrnZld0w",
+    authDomain: "keep-clone-f9438.firebaseapp.com",
+    databaseURL: "https://keep-clone-f9438.firebaseio.com",
+    projectId: "keep-clone-f9438",
+    storageBucket: "keep-clone-f9438.appspot.com",
+    messagingSenderId: "792724877374"
+  };
+  firebase.initializeApp(config);
+</script>{
     "apiKey": "",
     "authDomain": "",
     "databaseURL": "",
